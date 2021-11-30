@@ -1,1 +1,1 @@
-# GitBlamer
+# git-blamer
