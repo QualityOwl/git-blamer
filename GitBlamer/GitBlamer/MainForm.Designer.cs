@@ -32,9 +32,9 @@
             this.menuStripMain = new System.Windows.Forms.MenuStrip();
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainerMain = new System.Windows.Forms.SplitContainer();
-            this.lblException = new System.Windows.Forms.Label();
-            this.tbException = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.tbException = new System.Windows.Forms.TextBox();
+            this.lblException = new System.Windows.Forms.Label();
             this.menuStripMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerMain)).BeginInit();
             this.splitContainerMain.Panel1.SuspendLayout();
@@ -49,21 +49,21 @@
             this.configToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
-            this.menuStripMain.Size = new System.Drawing.Size(1378, 33);
+            this.menuStripMain.Size = new System.Drawing.Size(1378, 36);
             this.menuStripMain.TabIndex = 0;
             this.menuStripMain.Text = "menuStrip1";
             // 
             // configToolStripMenuItem
             // 
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(81, 29);
+            this.configToolStripMenuItem.Size = new System.Drawing.Size(81, 30);
             this.configToolStripMenuItem.Text = "Config";
             this.configToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // splitContainerMain
             // 
             this.splitContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerMain.Location = new System.Drawing.Point(0, 33);
+            this.splitContainerMain.Location = new System.Drawing.Point(0, 36);
             this.splitContainerMain.Name = "splitContainerMain";
             // 
             // splitContainerMain.Panel1
@@ -71,18 +71,18 @@
             this.splitContainerMain.Panel1.Controls.Add(this.btnSubmit);
             this.splitContainerMain.Panel1.Controls.Add(this.tbException);
             this.splitContainerMain.Panel1.Controls.Add(this.lblException);
-            this.splitContainerMain.Size = new System.Drawing.Size(1378, 1011);
+            this.splitContainerMain.Size = new System.Drawing.Size(1378, 1008);
             this.splitContainerMain.SplitterDistance = 689;
             this.splitContainerMain.TabIndex = 1;
             // 
-            // lblException
+            // btnSubmit
             // 
-            this.lblException.AutoSize = true;
-            this.lblException.Location = new System.Drawing.Point(12, 10);
-            this.lblException.Name = "lblException";
-            this.lblException.Size = new System.Drawing.Size(83, 20);
-            this.lblException.TabIndex = 0;
-            this.lblException.Text = "Exception:";
+            this.btnSubmit.Location = new System.Drawing.Point(276, 944);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(100, 40);
+            this.btnSubmit.TabIndex = 2;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
             // 
             // tbException
             // 
@@ -93,14 +93,14 @@
             this.tbException.Size = new System.Drawing.Size(658, 885);
             this.tbException.TabIndex = 1;
             // 
-            // btnSubmit
+            // lblException
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(276, 944);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(100, 40);
-            this.btnSubmit.TabIndex = 2;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.lblException.AutoSize = true;
+            this.lblException.Location = new System.Drawing.Point(12, 10);
+            this.lblException.Name = "lblException";
+            this.lblException.Size = new System.Drawing.Size(83, 20);
+            this.lblException.TabIndex = 0;
+            this.lblException.Text = "Exception:";
             // 
             // MainForm
             // 
