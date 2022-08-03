@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitBlamer", "GitBlamer\GitBlamer.csproj", "{B324CD6F-3868-4E9E-821C-E6F6DFA2E577}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.UI", "Blamer.UI\Blamer.UI.csproj", "{B324CD6F-3868-4E9E-821C-E6F6DFA2E577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

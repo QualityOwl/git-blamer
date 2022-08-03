@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B324CD6F-3868-4E9E-821C-E6F6DFA2E577}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GitBlamer</RootNamespace>
-    <AssemblyName>GitBlamer</AssemblyName>
+    <RootNamespace>Blamer.UI</RootNamespace>
+    <AssemblyName>Blamer.UI</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
