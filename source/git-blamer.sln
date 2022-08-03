@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.UI", "Blamer.UI\Blam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.Utility", "Blamer.Utility\Blamer.Utility.csproj", "{80078389-E421-4596-B2DC-9404C5D47D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.Command", "Blamer.Command\Blamer.Command.csproj", "{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{80078389-E421-4596-B2DC-9404C5D47D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80078389-E421-4596-B2DC-9404C5D47D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80078389-E421-4596-B2DC-9404C5D47D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
