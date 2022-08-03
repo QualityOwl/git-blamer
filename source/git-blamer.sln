@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.Utility", "Blamer.Ut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.Command", "Blamer.Command\Blamer.Command.csproj", "{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blamer.Git", "Blamer.Git\Blamer.Git.csproj", "{DAAFABCC-17D2-429A-B67D-9060183B8EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDE32E9-C0E6-436D-9266-A77EB9AD1A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAAFABCC-17D2-429A-B67D-9060183B8EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAFABCC-17D2-429A-B67D-9060183B8EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAFABCC-17D2-429A-B67D-9060183B8EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAFABCC-17D2-429A-B67D-9060183B8EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
